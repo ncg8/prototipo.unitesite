@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+li,a{
+    font-weight: 400;
+    color: #0F5FA6;
+    text-decoration: none;
+
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 30px;
+    background-color: black;
+
+    /* NOVO CODIGO - MENU FIXO*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 12;
+}
+
+.conteudo{
+    display: flex;
+
+}
+
+
+
+.nav_links{
+    list-style: none;
+    align-items: center;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #DCE8F2
+}
+
+
+.logo{
+    width: 45px;
+    height: 45px;
+}
+
+.logo_pos{    
+    margin-top: 7px;
+    margin-right: auto;
+}
+
+.social_links{
+    margin-left: 7px;
+}
+
+.conteudo {
+    width: 100%;
+}
+
+.social{
+    margin-top: 4px;
+    width: 24px;
+    height: 24px;
+
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: black;
+    color: #0F5FA6;
+}
+
+
+/*
+#094173
+#0F5FA6
+#1A80D9
+#DCE8F2
+#0D0D0D */
